@@ -21,7 +21,6 @@ env/
 Thumbs.db
 
 # Large ML files
-*.pkl
 *.pickle
 *.joblib
 *.h5
