@@ -28,6 +28,5 @@ Thumbs.db
 *.pth
 
 # Data files
-*.csv
 *.xlsx
 *.zip
