@@ -11,7 +11,7 @@ Electric motor drives are expensive to instrument with dedicated fault sensors, 
 - **Missing values:** none
 
 ## GitHub Repository
-`<paste your repo link here after you push>`
+https://github.com/2025ac05360-design/2025ac05360_ML_Assignment_2
 
 ## Models Used
 
@@ -24,8 +24,6 @@ Evaluated with a stratified 75/25 train-test split (`random_state=42`), features
 | kNN | 0.8255 | 0.9727 | 0.8285 | 0.8255 | 0.8258 | 0.8082 |
 | Naive Bayes | 0.7453 | 0.9843 | 0.7887 | 0.7453 | 0.7066 | 0.7286 |
 | Random Forest (Ensemble) | 0.9989 | 1.0000 | 0.9989 | 0.9989 | 0.9989 | 0.9988 |
-
-*(6th model — pending confirmation from course coordinator on whether one is required; see `planner.md`. Add its row here once implemented.)*
 
 ## Observations
 
@@ -48,4 +46,4 @@ streamlit run app.py
 Upload `test_data.csv` (or any CSV with the same 48 `feature_*` columns, optionally plus a `target` column), pick a model from the sidebar dropdown, and the app shows accuracy/AUC/precision/recall/F1/MCC, the confusion matrix, and a downloadable predictions CSV.
 
 ## Live App
-`<paste your Streamlit Community Cloud link here once deployed>`
+https://2025ac05360mlassignment2-mh6vjhfgvqjchmxcki6bim.streamlit.app/

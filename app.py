@@ -1,14 +1,4 @@
-"""
-Sensorless Drive Diagnosis — Streamlit demo app
-Assignment 2 requirements covered:
-  a. Dataset upload option (CSV, test data only)
-  b. Model selection dropdown
-  c. Display of evaluation metrics
-  d. Confusion matrix / classification report
-"""
-
 import io
-
 import joblib
 import matplotlib
 matplotlib.use("Agg")
@@ -47,11 +37,6 @@ MODEL_FILES = {
     "Naive Bayes": "naive_bayes.pkl",
     "Random Forest (Ensemble)": "random_forest.pkl",
 }
-
-# Note: the UCI documentation labels these only as "11 different classes with
-# different conditions" without specifying which numeric class is the healthy
-# baseline vs. which fault — so we show the raw class id rather than invented names.
-
 
 @st.cache_resource(show_spinner=False)
 def load_scaler():
